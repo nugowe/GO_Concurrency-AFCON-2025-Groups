@@ -37,6 +37,24 @@ This is a snapshot of the Descending order of the Group pairings after an API ca
 
 
 
+Usage Instructions:
+
+Clone this repository and ensure your root directory resides in the same location as the Dockerfile.
+
+Docker build: docker build -t --no-cache nosaugowe/afcon_go .
+
+Docker run command: docker run -p 5000:5000 nosaugowe/afcon_go
+
+
+
+API ENDPOINTS:
+
+http://localhost:5000/afcon_groups_list_aesc -- AFCON Teams Ascending order
+
+http://localhost:5000/afcon_groups_list_desc -- AFCON Teams Descending order
+
+
+
 STEP 7:
 
 This is a snapshot of the Ascending order of the Group pairings after an API call has been made.
